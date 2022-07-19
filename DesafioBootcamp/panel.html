@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/panel.css">
+    <title>Painel</title>
+</head>
+<body>
+    <main>
+        <nav id="menu">
+            <ul>
+                <li><a href=""><span id="clientes" class="material-symbols-outlined"> group_add</span><strong>Clientes</strong></a></li>
+                <li><a href=""><span id="produtos" class="material-symbols-outlined"> shopping_bag</span><strong>Produtos</strong></a></li>                                
+                <li><a href=""><span id="pedidos" class="material-symbols-outlined"> shopping_cart</span><strong>Pedidos</strong></a></li>
+            </ul>
+        </nav>
+        <section>
+            <form action="">
+                <fieldset class="clientes-produtos">
+                    <header>
+                        <h1>Clientes</h1>
+                        <input type="button" name="X" id="Xfechar" value="X">
+                    </header>
+                    <label for="codCli">Código</label>
+                    <input type="text" name="codCli" id="codCli" class="ajuste">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="ajuste">
+                    <label for="dataCad">Data Cadastro</label>
+                    <input type="datetime" name="dataCad" id="dataCad" class="ajuste">
+                    <footer>
+                        <div>
+                            <input type="button" name="voltar" id="voltar" value="<">
+                            <input type="button" name="avançar" id="avançar" value=">">
+                        </div>
+                        <div>
+                            <input type="button" name="novo" id="novo" value="Novo">
+                            <input type="button" name="salvar" id="salvar" value="Salvar">
+                        </div>
+                    </footer>
+                </fieldset>
+            </form>
+            <form action="">
+                <fieldset class="clientes-produtos">
+                    <header>
+                        <h1>Produtos</h1>
+                        <input type="button" name="X" id="Xfechar" value="X">
+                    </header>
+                    <label for="codProd">Código</label>
+                    <input type="text" name="codProd" id="codProd" class="ajuste">
+                    <label for="descri">Descrição</label>
+                    <input type="text" name="descri" id="descri" class="ajuste">
+                    <label for="preço">Preço</label>
+                    <input type="text" name="preço" id="preço" class="ajuste">
+                    <label for="quant">Quantidade</label>
+                    <input type="number" name="quant" id="quant" class="ajuste">
+                    <footer>
+                        <div>
+                            <input type="button" name="voltar" id="voltar" value="<">
+                            <input type="button" name="avançar" id="avançar" value=">">
+                        </div>
+                        <div>
+                            <input type="button" name="novo" id="novo" value="Novo">
+                            <input type="button" name="salvar" id="salvar" value="Salvar">
+                        </div>
+                    </footer>
+                </fieldset>
+            </form>
+            <form action="">
+                <fieldset class="pedidos">
+                    <header>
+                        <h1>Pedidos</h1>
+                        <input type="button" name="X" id="Xfechar" value="X">
+                    </header>
+                    <label for="codCliPed">Código do Cliente</label>
+                    <input type="text" name="codCliPed" id="codCliPed" class="ajuste">
+                    <label for="descri">Cliente</label>
+                    <input type="text" name="descri" id="descri" class="ajuste">
+                    
+                </fieldset>
+            </form>
+        </section>
+    </main>       
+</body>
+</html>

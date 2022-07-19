@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+}
+
+fieldset{
+    padding: 2px;
+    border: none;
+}
+
+section#form{
+    margin: 30px auto;
+    padding: 5px;
+
+}
+
+form{
+     width: 100%;
+     height: auto;
+     padding: 2px;
+ }
+
+ label{
+     display: block;
+     width: 100%;
+     height: auto;
+     padding: 2px;
+ }
+
+ .text{
+     width: 100%;
+     height: 30px;
+ }

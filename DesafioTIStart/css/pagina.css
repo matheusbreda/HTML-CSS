@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: helvetica;
+}
+
+header {
+    width: 100vw;
+    height: 6vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 50vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+strong {
+    width: 25vw;
+    height: 6vh;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 50vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#menu {
+    width: 25vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+a {    
+    width: 8vw;
+    height: 5vh;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+     
+    text-decoration: none;
+}
+
+a.home {
+   background-color: #f9a825; 
+   border-radius: 20px;
+}
+
+a.contato:hover {
+    background-color: red;
+    border-radius: 20px;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50vw;
+    height: 40vh;
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+}
+
+p {
+    width: 25vw;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    padding: 0 40px 0 40px;   
+}
+
+div#entrada {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid rgb(117, 117, 117);
+    border-left-style: dotted;
+}
+
+input#email {
+    width: 90%;
+    height: 15%;
+    border: 2px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input#enviar {
+    width: 10vw;
+    height: 5vh;
+    color: #fff;
+    font-weight: bold;
+    background-color: #000;
+}
+
+
+
+footer {
+    width: 100vw;
+    height: 14vh;
+    color: #fff;
+    font-weight: bold;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

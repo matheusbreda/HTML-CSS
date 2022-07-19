@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="form">
+        <form action="" method="post" name="cadastro">
+            <fieldset>
+                <legend>cadastro de usuario</legend>
+                <label for="nomeUsu">Nome</label>
+                <input type="text" required placeholder="Digite seu nome" class="txt" id="nomeUsu" name="nomeUsu" value="">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" class="txt" id="sobrenome" name="sobrenome" value="">
+                <label for="dataNascUsu">Data de Nasc.</label>
+                <input type="text" class="txt" id="dataNascUsu" name="dataNascUsu" value="">
+                
+            </fieldset>
+            <fieldset>
+                <legend>sexo</legend>
+                <label for="M">masculino</label>
+                <input type="radio" name="genero" id="M" value="m">
+                <label for="F">feminino</label>
+                <input type="radio" name="genero" id="F" value="f">
+            </fieldset>
+            <fieldset>
+                <legend>preferencias</legend>
+                <label for="php">php</label>
+                <input type="checkbox" name="php" id="php" value="php">
+                <label for="js">js</label>
+                <input type="checkbox" name="js" id="js" value="js">
+                <label for="html">html</label>
+                <input type="checkbox" name="html" id="html" value="html">
+            </fieldset>
+            <fieldset>
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="junior">junior</option>
+                <option value="senior">senior</option>
+                <option value="plus">plus</option>
+            </select>
+            </fieldset>
+            <fieldset>
+            <label for="edição">escreva sobre voce</label>
+            <textarea name="" id="edição" cols="50" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" name="enviarDados" value="ENVIAR">
+        </form>
+    </section>
+</body>
+</html>
